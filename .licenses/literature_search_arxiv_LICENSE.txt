@@ -1,0 +1,3 @@
+Terms checked: https://info.arxiv.org/help/api/index.html
+arXiv API terms respected: max 1 request per 3 seconds. Individual paper licenses apply.
+Notification recorded: 2026-10-08T16:33:00-04:00

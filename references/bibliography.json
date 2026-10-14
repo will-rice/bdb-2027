@@ -1,0 +1,181 @@
+{
+  "academic_literature": [
+    {
+      "key": "Harper2022Decel",
+      "title": "Biomechanical and Neuromuscular Performance Requirements of Horizontal Deceleration: A Review with Implications for Random Intermittent Multi-Directional Sports",
+      "authors": ["Damian J. Harper", "Christopher Carling", "John Kiely"],
+      "year": 2022,
+      "journal": "Sports Medicine",
+      "volume": "52",
+      "issue": "5",
+      "pages": "1021-1054",
+      "doi": "10.1007/s40279-022-01693-0",
+      "openalex_id": "https://openalex.org/W4281704315",
+      "topics": [
+        "Horizontal deceleration",
+        "Braking impulse",
+        "Eccentric load",
+        "Change of direction"
+      ]
+    },
+    {
+      "key": "Harper2024BrakingFramework",
+      "title": "The Braking Performance Framework: Practical Recommendations and Guidelines to Enhance Horizontal Deceleration Ability in Multi-Directional Sports",
+      "authors": [
+        "Damian J. Harper",
+        "Daniel D. Cohen",
+        "Christopher Carling",
+        "John Kiely"
+      ],
+      "year": 2024,
+      "journal": "International Journal of Sports Science & Coaching",
+      "volume": "4",
+      "issue": "1",
+      "pages": "351",
+      "doi": "10.47206/ijsc.v4i1.351",
+      "openalex_id": "https://openalex.org/W4402509752",
+      "topics": [
+        "Penultimate foot contact",
+        "Peak braking deceleration",
+        "Turn entry kinematics"
+      ]
+    },
+    {
+      "key": "Nimphius2016CODD",
+      "title": "Change of Direction Deficit: A More Isolated Measure of Change of Direction Performance Than Total 505 Time",
+      "authors": [
+        "Sophia Nimphius",
+        "S. J. Callaghan",
+        "T. Spiteri",
+        "R. G. Lockie"
+      ],
+      "year": 2016,
+      "journal": "Journal of Strength and Conditioning Research",
+      "volume": "30",
+      "issue": "11",
+      "pages": "3024-3032",
+      "doi": "10.1519/JSC.0000000000001421",
+      "openalex_id": "https://openalex.org/W2301686871",
+      "topics": [
+        "Change of direction deficit",
+        "Agility vs sprint speed isolation",
+        "Linear speed decoupling"
+      ]
+    },
+    {
+      "key": "Teramoto2015CombineValidity",
+      "title": "Predictive Value of National Football League Scouting Combine on Future Performance of Running Backs and Wide Receivers",
+      "authors": ["Masaru Teramoto", "Chad L. Cross", "Melissa Willick"],
+      "year": 2015,
+      "journal": "Journal of Strength and Conditioning Research",
+      "volume": "29",
+      "issue": "6",
+      "pages": "1579-1587",
+      "doi": "10.1519/JSC.0000000000001202",
+      "openalex_id": "https://openalex.org/W2438621791",
+      "topics": [
+        "NFL Scouting Combine",
+        "Stopwatch Paradox",
+        "Predictive validity",
+        "Wide Receivers"
+      ]
+    },
+    {
+      "key": "Nguyen2023STRAIN",
+      "title": "Here Comes the STRAIN: Analyzing Defensive Pass Rush in American Football with Player Tracking Data",
+      "authors": ["Quang Nguyen", "Ronald Yurko", "Gregory J. Matthews"],
+      "year": 2023,
+      "journal": "Journal of Quantitative Analysis in Sports",
+      "arxiv_id": "2305.10262v3",
+      "doi": "10.1515/jqas-2023-0046",
+      "topics": [
+        "Pass rush pressure",
+        "STRAIN metric",
+        "10 Hz tracking",
+        "Blocker-rusher interactions"
+      ]
+    },
+    {
+      "key": "PippingGamon2026PassBlock",
+      "title": "Opponent-Adjusted Evaluation of NFL Pass Blocking and Pass Rushing Performance",
+      "authors": [
+        "Jonathan Pipping-Gamón",
+        "Maximilian Gebauer",
+        "Victoria Lee"
+      ],
+      "year": 2026,
+      "arxiv_id": "2604.01491v1",
+      "topics": [
+        "Offensive line evaluation",
+        "Pass protection",
+        "Opponent adjustments",
+        "Trench matchups"
+      ]
+    },
+    {
+      "key": "Brahme2026WhoBlocksWhom",
+      "title": "Who Blocks Whom? Probabilistic Pass-Blocking Assignments for Evaluating Blockers and Pass Rushers in American Football",
+      "authors": ["Abhijit Brahme", "Ishan Mehta", "Gregory J. Matthews"],
+      "year": 2026,
+      "arxiv_id": "2609.33664v2",
+      "topics": [
+        "Pass blocking assignments",
+        "Offensive line pass sets",
+        "Pressure probability"
+      ]
+    },
+    {
+      "key": "Chu2019RouteIdentification",
+      "title": "Route Identification in the National Football League",
+      "authors": ["Dani Chu", "Matthew Reyers", "James Thomson", "Lucas Wu"],
+      "year": 2019,
+      "journal": "Journal of Quantitative Analysis in Sports",
+      "arxiv_id": "1908.02423v1",
+      "topics": [
+        "Route tree clustering",
+        "Spatial-temporal curves",
+        "Receiver separation"
+      ]
+    },
+    {
+      "key": "Song2026CoverageTransformer",
+      "title": "Decoding Defensive Coverage Responsibilities in American Football Using Factorized Attention Based Transformer Models",
+      "authors": ["Kevin Song", "Evan Diewald", "Ornob Siddiquee"],
+      "year": 2026,
+      "arxiv_id": "2603.25901v1",
+      "topics": [
+        "Coverage assignment",
+        "Man vs zone coverage",
+        "Defensive back reaction time"
+      ]
+    }
+  ],
+  "community_benchmarks": [
+    {
+      "author": "Dariush Afshar",
+      "title": "Combine Tracking Audit: Speed r=0.95, Start r=0.28",
+      "kernel_slug": "dariushafshar/combine-tracking-audit-speed-r-0-95-start-r-0-28",
+      "year": 2026,
+      "findings": "Proves top speed repeats (r=0.95) but tracking start has high noise (r=0.28) except for DL (r=0.65-0.92). Weight explains 84% of raw DL burst vs get-off."
+    },
+    {
+      "author": "Yumeko Hata",
+      "title": "DB Drills Decoded: CB/S Tracking + 2024 Data Trap",
+      "kernel_slug": "yumekohata/db-drills-decoded-cb-s-tracking-2024-data-trap",
+      "year": 2026,
+      "findings": "Identified 2024 backpedal drill truncation (6.0s vs 11.6s) and unquantized 2025 sensor grid. Proved need for (drill, year) centering."
+    }
+  ],
+  "organizer_rulings": [
+    {
+      "official": "Tom Bliss (Director of Football Data & Analytics, NFL)",
+      "discussion_ids": [746678, 747105, 747108, 746425],
+      "rulings": {
+        "pass_rush_denominator": "Blitz flag defines pass rusher; for non-blitz use pass_result != ''",
+        "pressure_encoding": "Null on blitz play indicates no pressure occurred; 0 indicates non-quick pressure (>2.5s)",
+        "ball_tracking": "nfl_id on ball frames attributed to performing athlete",
+        "missing_game_records": "13 combine athletes never made active 53-man game roster"
+      }
+    }
+  ]
+}

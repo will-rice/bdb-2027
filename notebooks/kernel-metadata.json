@@ -1,0 +1,15 @@
+{
+  "id": "willrice/nfl-bdb-2027-frame-first",
+  "title": "NFL BDB 2027: Frame First",
+  "code_file": "frame_first.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [],
+  "competition_sources": ["nfl-big-data-bowl-2027"],
+  "kernel_sources": [],
+  "model_sources": []
+}

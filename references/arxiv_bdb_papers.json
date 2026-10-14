@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "results_count": 2,
+  "papers": [
+    {
+      "id": "1910.12337v1",
+      "title": "Expected Hypothetical Completion Probability",
+      "pdf_url": "https://arxiv.org/pdf/1910.12337v1",
+      "summary": "Using high-resolution player tracking data made available by the National Football League (NFL) for their 2019 Big Data Bowl competition, we introduce the Expected Hypothetical Completion Probability (EHCP), a objective framework for evaluating plays. At the heart of EHCP is the question \"on a given passing play, did the quarterback throw the pass to the receiver who was most likely to catch it?\" To answer this question, we first built a Bayesian non-parametric catch probability model that automatically accounts for complex interactions between inputs like the receiver's speed and distances to the ball and nearest defender. While building such a model is, in principle, straightforward, using it to reason about a hypothetical pass is challenging because many of the model inputs corresponding to a hypothetical are necessarily unobserved. To wit, it is impossible to observe how close an un-targeted receiver would be to his nearest defender had the pass been thrown to him instead of the receiver who was actually targeted. To overcome this fundamental difficulty, we propose imputing the unobservable inputs and averaging our model predictions across these imputations to derive EHCP. In this way, EHCP can track how the completion probability evolves for each receiver over the course of a play in a way that accounts for the uncertainty about missing inputs.",
+      "published": "2019-10-27T20:07:26Z",
+      "comment": "This paper elaborates on work done for the NFL 2019 Big Data Bowl contest. Manuscript accepted at the Journal of Quantitative Analysis in Sports",
+      "primary_category": "stat.AP",
+      "authors": ["Sameer K. Deshpande", "Katherine Evans"]
+    },
+    {
+      "id": "1908.02423v1",
+      "title": "Route Identification in the National Football League",
+      "pdf_url": "https://arxiv.org/pdf/1908.02423v1",
+      "summary": "Tracking data in the NFL is a sequence of spatial-temporal measurements that vary in length depending on the duration of the play. In this paper, we demonstrate how model-based curve clustering of observed player trajectories can be used to identify the routes run by eligible receivers on offensive passing plays. We use a Bernstein polynomial basis function to represent cluster centers, and the Expectation Maximization algorithm to learn the route labels for each of the 34,698 routes run on the 6,963 passing plays in the data set. We go on to suggest ideas for new potential receiver metrics that account for receiver deployment. The resulting route labels can also be paired with film to enable streamlined queries of game film.",
+      "published": "2019-08-07T02:36:54Z",
+      "comment": "Work developed from the NFL Big Data Bowl for submission in the JQAS special issue on NFL tracking data",
+      "primary_category": "stat.AP",
+      "doi": "10.1515/jqas-2019-0047",
+      "authors": ["Dani Chu", "Matthew Reyers", "James Thomson", "Lucas Wu"]
+    }
+  ]
+}

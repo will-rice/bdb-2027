@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "count": 119,
+    "db_response_time_ms": 156,
+    "page": 1,
+    "per_page": 8,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works where full text has (stemmed \"Big Data Bowl\" OR stemmed \"Next Gen Stats\")",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "join": "or",
+            "filters": [
+              {
+                "column_id": "fulltext.search",
+                "value": "\"Big Data Bowl\"",
+                "operator": "has"
+              },
+              {
+                "column_id": "fulltext.search",
+                "value": "\"Next Gen Stats\"",
+                "operator": "has"
+              }
+            ]
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:%22Big Data Bowl%22|%22Next Gen Stats%22&per_page=8&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2969368713",
+      "doi": "https://doi.org/10.1177/0163443719857623",
+      "title": "Over-the-top sport: live streaming services, changing coverage rights markets and the growth of media sport portals",
+      "publication_year": 2019,
+      "cited_by_count": 163
+    },
+    {
+      "id": "https://openalex.org/W3044737785",
+      "doi": "https://doi.org/10.1146/annurev-statistics-040720-015536",
+      "title": "Modeling Player and Team Performance in Basketball",
+      "publication_year": 2020,
+      "cited_by_count": 89
+    },
+    {
+      "id": "https://openalex.org/W4376141713",
+      "doi": "https://doi.org/10.1002/wics.1612",
+      "title": "Big ideas in sports analytics and statistical tools for their investigation",
+      "publication_year": 2023,
+      "cited_by_count": 44
+    },
+    {
+      "id": "https://openalex.org/W3198914706",
+      "doi": "https://doi.org/10.1007/s40279-021-01552-4",
+      "title": "The Training of Medium- to Long-Distance Sprint Performance in Football Code Athletes: A Systematic Review and Meta-analysis",
+      "publication_year": 2021,
+      "cited_by_count": 30
+    },
+    {
+      "id": "https://openalex.org/W4385878472",
+      "doi": "https://doi.org/10.3390/app13169278",
+      "title": "Positional Movement Demands during NFL Football Games: A 3-Year Review",
+      "publication_year": 2023,
+      "cited_by_count": 23
+    },
+    {
+      "id": "https://openalex.org/W3183523428",
+      "doi": "https://doi.org/10.3389/fspor.2021.669845",
+      "title": "Simulating Defensive Trajectories in American Football for Predicting League Average Defensive Movements",
+      "publication_year": 2021,
+      "cited_by_count": 17
+    },
+    {
+      "id": "https://openalex.org/W4294755911",
+      "doi": "https://doi.org/10.1016/j.asmr.2022.08.001",
+      "title": "New Opportunities in Assessing Return to Performance in the Elite Athlete: Unifying Sports Medicine, Data Analytics, and Sports Science",
+      "publication_year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "id": "https://openalex.org/W2940867404",
+      "doi": "https://doi.org/10.1145/3290605.3300293",
+      "title": "HistoryTracker",
+      "publication_year": 2019,
+      "cited_by_count": 16
+    }
+  ],
+  "group_by": []
+}

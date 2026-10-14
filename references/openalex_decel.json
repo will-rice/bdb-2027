@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "count": 13304,
+    "db_response_time_ms": 66,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works where full text has (horizontal deceleration braking)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "horizontal deceleration braking",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:horizontal deceleration braking&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4402509752",
+      "doi": "https://doi.org/10.47206/ijsc.v4i1.351",
+      "title": "The Braking Performance Framework: Practical Recommendations and Guidelines to Enhance Horizontal Deceleration Ability in Multi-Directional Sports",
+      "publication_year": 2024,
+      "cited_by_count": 23
+    },
+    {
+      "id": "https://openalex.org/W2594604819",
+      "doi": null,
+      "title": "Development of a New Braking System for a Horizontal Sled Used in Crash Tests with an Imposed Deceleration",
+      "publication_year": 2006,
+      "cited_by_count": 0
+    },
+    {
+      "id": "https://openalex.org/W2592681689",
+      "doi": null,
+      "title": "A New Braking System for a Horizontal Sledge to be Used in Crash Tests with an Imposed Deceleration",
+      "publication_year": 2006,
+      "cited_by_count": 1
+    },
+    {
+      "id": "https://openalex.org/W4403493054",
+      "doi": "https://doi.org/10.3390/app14209357",
+      "title": "A Data- and Model-Integrated Driven Method for Recommending the Maximum Safe Braking Deceleration Rates for Trucks on Horizontal Curves",
+      "publication_year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "id": "https://openalex.org/W4281704315",
+      "doi": "https://doi.org/10.1007/s40279-022-01693-0",
+      "title": "Biomechanical and Neuromuscular Performance Requirements of Horizontal Deceleration: A Review with Implications for Random Intermittent Multi-Directional Sports",
+      "publication_year": 2022,
+      "cited_by_count": 145
+    }
+  ],
+  "group_by": []
+}

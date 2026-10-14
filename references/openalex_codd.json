@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "count": 930,
+    "db_response_time_ms": 49,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works where full text has (change of direction deficit Nimphius)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "change of direction deficit Nimphius",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:change of direction deficit Nimphius&per_page=5&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2301686871",
+      "doi": "https://doi.org/10.1519/jsc.0000000000001421",
+      "title": "Change of Direction Deficit: A More Isolated Measure of Change of Direction Performance Than Total 505 Time",
+      "publication_year": 2016,
+      "cited_by_count": 316
+    },
+    {
+      "id": "https://openalex.org/W2790940922",
+      "doi": "https://doi.org/10.1519/jsc.0000000000002438",
+      "title": "Assessing Asymmetries in Change of Direction Speed Performance: Application of Change of Direction Deficit",
+      "publication_year": 2018,
+      "cited_by_count": 114
+    },
+    {
+      "id": "https://openalex.org/W2904952287",
+      "doi": "https://doi.org/10.3390/sports6040174",
+      "title": "Comparison of Change of Direction Speed Performance and Asymmetries between Team-Sport Athletes: Application of Change of Direction Deficit",
+      "publication_year": 2018,
+      "cited_by_count": 70
+    },
+    {
+      "id": "https://openalex.org/W2767527112",
+      "doi": "https://doi.org/10.1519/jsc.0000000000002346",
+      "title": "Application of Change of Direction Deficit to Evaluate Cutting Ability",
+      "publication_year": 2017,
+      "cited_by_count": 36
+    },
+    {
+      "id": "https://openalex.org/W4226288427",
+      "doi": "https://doi.org/10.1590/s1980-657420220010521",
+      "title": "Does the change of direction deficit measure the time of change of direction?",
+      "publication_year": 2022,
+      "cited_by_count": 1
+    }
+  ],
+  "group_by": []
+}

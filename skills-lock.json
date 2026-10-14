@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "skills": {
+    "doc-coauthoring": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/doc-coauthoring/SKILL.md",
+      "computedHash": "b964e4c3ffe13f66f76dd7919073e60c7aec622cd8a8363bb36323188100cf8e"
+    },
+    "literature-search-arxiv": {
+      "source": "google-deepmind/science-skills",
+      "sourceType": "github",
+      "skillPath": "skills/literature_search_arxiv/SKILL.md",
+      "computedHash": "48d7f42f881c008a4d404a3a9f7af462c924f62d2a318b339eb296b16a2c21d2"
+    },
+    "literature-search-openalex": {
+      "source": "google-deepmind/science-skills",
+      "sourceType": "github",
+      "skillPath": "skills/literature_search_openalex/SKILL.md",
+      "computedHash": "2e0b5432d52ae4f2657cb3ee62c67c9ca4e44d8a558387c0be5cfc2d82c5b765"
+    },
+    "nvidia-kaggle-skill": {
+      "source": "NVIDIA/nvidia-kaggle",
+      "sourceType": "github",
+      "skillPath": "skills/nvidia-kaggle-skill/SKILL.md",
+      "computedHash": "ceb01566b94e194b415fdd31a3897c4120bdd8e1888fd126df2639a90d077d83"
+    },
+    "ralph-loop": {
+      "source": "mikeyobrien/ralph-orchestrator",
+      "sourceType": "github",
+      "skillPath": "skills/ralph-loop/SKILL.md",
+      "computedHash": "449c7ad5ffb2ee5ed6fbbc121ef6a8a11da7d0686331c1df85ec2c40ea2bc8bd"
+    },
+    "ralph-loop-workflow": {
+      "source": "andrelandgraf/fullstackrecipes",
+      "sourceType": "github",
+      "skillPath": "skills/ralph-loop-workflow/SKILL.md",
+      "computedHash": "3a63550641b698a708cef86354c3a7b5c319895cfe1bc7aa1049dba12fc1e2c9"
+    }
+  }
+}

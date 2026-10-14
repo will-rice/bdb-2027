@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "count": 6309,
+    "db_response_time_ms": 75,
+    "page": 1,
+    "per_page": 8,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works where full text has (NFL tracking data football)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "NFL tracking data football",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:NFL tracking data football&per_page=8&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4401164724",
+      "doi": "https://doi.org/10.1016/s0140-6736(24)01296-0",
+      "title": "Dementia prevention, intervention, and care: 2024 report of the Lancet standing Commission",
+      "publication_year": 2024,
+      "cited_by_count": 3696
+    },
+    {
+      "id": "https://openalex.org/W4283695295",
+      "doi": "https://doi.org/10.1161/cir.0000000000001078",
+      "title": "Life\u2019s Essential 8: Updating and Enhancing the American Heart Association\u2019s Construct of Cardiovascular Health: A Presidential Advisory From the American Heart Association",
+      "publication_year": 2022,
+      "cited_by_count": 2732
+    },
+    {
+      "id": "https://openalex.org/W2129780974",
+      "doi": "https://doi.org/10.1136/bjsports-2012-091941",
+      "title": "American Medical Society for Sports Medicine position statement: concussion in sport",
+      "publication_year": 2012,
+      "cited_by_count": 1424
+    },
+    {
+      "id": "https://openalex.org/W4380574892",
+      "doi": "https://doi.org/10.1136/bjsports-2023-106898",
+      "title": "Consensus statement on concussion in sport: the 6th International Conference on Concussion in Sport\u2013Amsterdam, October 2022",
+      "publication_year": 2023,
+      "cited_by_count": 1190
+    },
+    {
+      "id": "https://openalex.org/W2161774697",
+      "doi": "https://doi.org/10.4085/1062-6050-49.1.07",
+      "title": "National Athletic Trainers' Association Position Statement: Management of Sport Concussion",
+      "publication_year": 2014,
+      "cited_by_count": 1107
+    },
+    {
+      "id": "https://openalex.org/W2750121529",
+      "doi": "https://doi.org/10.1001/jama.2017.8334",
+      "title": "Clinicopathological Evaluation of Chronic Traumatic Encephalopathy in Players of American Football",
+      "publication_year": 2017,
+      "cited_by_count": 1093
+    },
+    {
+      "id": "https://openalex.org/W2996264288",
+      "doi": "https://doi.org/10.48550/arxiv.1912.08777",
+      "title": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+      "publication_year": 2019,
+      "cited_by_count": 968
+    },
+    {
+      "id": "https://openalex.org/W3008390291",
+      "doi": "https://doi.org/10.1136/bjsports-2019-101969",
+      "title": "International Olympic Committee consensus statement: methods for recording and reporting of epidemiological data on injury and illness in sport 2020 (including STROBE Extension for Sport Injury and Illness Surveillance (STROBE-SIIS))",
+      "publication_year": 2020,
+      "cited_by_count": 962
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "count": 857,
+    "db_response_time_ms": 64,
+    "page": 1,
+    "per_page": 8,
+    "groups_count": null,
+    "x_query": {
+      "oql": "get works where full text has (NFL Scouting Combine performance predictive)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "NFL Scouting Combine performance predictive",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:NFL Scouting Combine performance predictive&per_page=8&page=1"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7204178404",
+      "doi": "https://doi.org/10.1519/jsc.0000000000005654",
+      "title": "The NFL Scouting Combine Explains Within-Position Physical Performance Variance But Is a Poor Predictor of Draft Outcomes",
+      "publication_year": 2026,
+      "cited_by_count": 0
+    },
+    {
+      "id": "https://openalex.org/W7125591148",
+      "doi": "https://doi.org/10.59720/24-208",
+      "title": "Is the NFL Combine predictive of a defensive lineman\u2019s NFL career?",
+      "publication_year": 2026,
+      "cited_by_count": 0
+    },
+    {
+      "id": "https://openalex.org/W4324108756",
+      "doi": "https://doi.org/10.48550/arxiv.2303.05774",
+      "title": "NFL Career Success as Predicted by NFL Scouting Combine",
+      "publication_year": 2023,
+      "cited_by_count": 0
+    },
+    {
+      "id": "https://openalex.org/W2898281653",
+      "doi": "https://doi.org/10.1519/jsc.0000000000002937",
+      "title": "National Scouting Combine Scores as Performance Predictors in the National Football League",
+      "publication_year": 2018,
+      "cited_by_count": 24
+    },
+    {
+      "id": "https://openalex.org/W2438621791",
+      "doi": "https://doi.org/10.1519/jsc.0000000000001202",
+      "title": "Predictive Value of National Football League Scouting Combine on Future Performance of Running Backs and Wide Receivers",
+      "publication_year": 2015,
+      "cited_by_count": 40
+    },
+    {
+      "id": "https://openalex.org/W2755356137",
+      "doi": "https://doi.org/10.1177/2473011417s000315",
+      "title": "The NFL Combine as a Predictor of On-field Success",
+      "publication_year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "id": "https://openalex.org/W2941203562",
+      "doi": null,
+      "title": "A Better Predictor of NFL Success: Collegiate Performance or the NFL Draft Combine?",
+      "publication_year": 2019,
+      "cited_by_count": 0
+    },
+    {
+      "id": "https://openalex.org/W4414232263",
+      "doi": "https://doi.org/10.1249/01.mss.0001157360.44852.14",
+      "title": "Principal Component Analysis Of NFL Combine Physical Performance Tests Predict Intra-position Variance But Not Draft Position",
+      "publication_year": 2025,
+      "cited_by_count": 0
+    }
+  ],
+  "group_by": []
+}
